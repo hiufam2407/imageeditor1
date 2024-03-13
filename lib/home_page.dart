@@ -10,12 +10,11 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   List<Project> projects = [
-    Project(
-        name: 'Project 1', imageList: [ImageProperty(path: "assets/1.jpg")]),
-    Project(name: 'Project 5', imageList: [
-      ImageProperty(path: "assets/2.jpg"),
-      ImageProperty(path: "assets/3.jpg")
-    ]),
+    Project(name: 'Project 1', imageList: [ImageProperty(path: "assets/1.jpg")]),
+    Project(name: 'Project 2', imageList: [ImageProperty(path: "assets/1.jpg")]),
+    Project(name: 'Project 3', imageList: [ImageProperty(path: "assets/1.jpg")]),
+    Project(name: 'Project 4', imageList: [ImageProperty(path: "assets/1.jpg")]),
+    Project(name: 'Project 5', imageList: [ImageProperty(path: "assets/2.jpg"), ImageProperty(path: "assets/3.jpg")]),
     // Thêm các dự án khác tại đây.
   ];
 
